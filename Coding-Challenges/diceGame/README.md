@@ -7,3 +7,5 @@ The first game: roll a die repeatedly. Stop rolling once you get a five followed
 The second game: same, except that the stopping condition is a five followed by a five.
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
+
+**IT DOES NOT MATTER

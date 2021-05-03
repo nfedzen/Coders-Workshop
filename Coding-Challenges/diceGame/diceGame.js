@@ -49,11 +49,21 @@ let gameTwo = () =>{
   return rolls
 }
 
-console.log(gameOne())
-console.log(gameTwo())
+
 
 let count = 0
 let gameOneResults = 0
-while(count < 50){
-  
+while(count < 10000){
+  gameOneResults = gameOneResults + gameOne()
+  count++
 }
+console.log("gameOne: " + (gameOneResults / 10000))
+
+count = 0
+let gameTwoResults = 0
+
+while(count < 10000){
+  gameTwoResults = gameTwoResults + gameTwo()
+  count++
+}
+console.log("gameTwo: " + (gameTwoResults / 10000))

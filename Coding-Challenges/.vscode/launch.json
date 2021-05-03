@@ -4,9 +4,10 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+
     {"console": "integratedTerminal",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/alternatingLinkedList/alternatingLinkedList.js",
+      "program": "${workspaceFolder}/coinFlip/coinFlip.js",
       "request": "launch",
       "skipFiles": [
         "<node_internals>/**"

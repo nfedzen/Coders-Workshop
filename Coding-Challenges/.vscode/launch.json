@@ -7,7 +7,7 @@
 
     {"console": "integratedTerminal",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/coinFlip/coinFlip.js",
+      "program": "${workspaceFolder}/diceGame/diceGame.js",
       "request": "launch",
       "skipFiles": [
         "<node_internals>/**"
